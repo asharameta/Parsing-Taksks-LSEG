@@ -1,0 +1,13 @@
+a)
+select *
+from CUSTOMERS c join ORDERS o on c.ID=o.OrderID;
+
+b)
+UPDATE CUSTOMERS
+SET Type='Corn'
+where id=2;
+
+c)
+count(*)
+from CUSTOMERS
+where Country='UK';
